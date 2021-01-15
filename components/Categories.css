@@ -1,0 +1,63 @@
+
+.location{
+    width : 360px;
+    color: #ffffff;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.wrapper1{
+    background-color: #000000;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.wrapper1 .location_name, .triangle{
+    display: inline;
+    background-color: inherit;
+}
+
+.wrapper1 svg{
+    background-color: inherit;
+    line-height: 50px;
+    margin-left: 15px;
+}
+
+
+
+.location i{
+    float : right;
+}
+
+.location .location_menu{
+    display: none;
+    z-index: 1;
+    width : 100%;
+}
+
+.location .location_menu li{
+    list-style: none;
+}
+
+
+
+.location:hover .location_menu{
+    display: block;
+}
+
+.hover:hover{
+    color : white;
+}
+
+.blue{
+    color: #0DA6C8;
+}
+
+.triangle{
+    display: inline-block;
+}
+
+
+

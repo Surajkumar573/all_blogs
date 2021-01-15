@@ -1,0 +1,46 @@
+.wrapper{
+    background-color: #000000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.logo{
+    height: 46px;
+    width: 40px;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.content{
+    line-height: 25px;
+    text-align: left;
+}
+
+.content .heading{
+    font-size: 16px;
+}
+
+.content .about{
+    line-height: inherit;
+    font-size: 12px;
+}
+
+.endPart{
+    line-height: 50px;
+    margin-right: 10px;
+}
+
+.endPart .litDesign{
+    display: inline-block;
+    position: relative;
+    top: 8px;
+}
+
+.endPart .litCount{
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 12px;
+}
